@@ -1,8 +1,10 @@
 import React from 'react';
+import './global.css';
+import Container from './pages/container';
 
 function App() {
   return (
-    <h1>Getting Ready</h1>
+    <Container></Container>
   );
 }
 
