@@ -1,0 +1,38 @@
+div {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #000000;
+}
+
+.main {
+    height         : 700px;
+    align-items    : center;
+    display        : flex;
+    flex-direction : column;
+    justify-content: center;
+}
+
+.container {
+    
+}
+
+.row {
+    display: flex;
+}
+
+.item {
+    width: 80px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    flex-direction: column;
+}
+
+.item h2 {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.item h4 {
+    font-size: 18px;
+}
