@@ -8,7 +8,11 @@ export default function Container() {
         <div className='main'>
             <div className='container'>
                 <Calendar></Calendar>
-                <Content></Content>
+                <Content>
+                    <div>
+                        <p>My Page</p>
+                    </div>
+                </Content>
             </div>
         </div>
     )

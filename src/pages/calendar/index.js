@@ -1,4 +1,9 @@
 import React, { useState } from 'react'
+import {
+    BrowserRouter as Router,
+    Link
+} from "react-router-dom";
+
 import './styles.css'
 var moment = require('moment');
 
@@ -24,16 +29,18 @@ const initialState = () => {
 }
 
 export default function Calendar() {
-    const [days, setDays] = useState(initialState)
+    const [days] = useState(initialState)
 
     return (
-        <div className="row">
-            {days.map(item =>
-                <div className='item' key={item.id}>
-                    <h2>{item.number}</h2>
-                    <h4>{item.day}</h4>
-                </div>
-            )}
-        </div>
+        <Router>
+            <div className="row">
+                {days.map(item =>
+                    <Link className='item' key={item.id} to={`/${item.id}`}>
+                        <h2>{item.number}</h2>
+                        <h4>{item.day}</h4>
+                    </Link>
+                )}
+            </div>
+        </Router>
     )
 }
