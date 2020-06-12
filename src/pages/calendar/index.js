@@ -1,8 +1,5 @@
 import React, { useState } from 'react'
-import {
-    BrowserRouter as Router,
-    Link
-} from "react-router-dom";
+import { Link } from "react-router-dom";
 
 import './styles.css'
 var moment = require('moment');
@@ -32,15 +29,13 @@ export default function Calendar() {
     const [days] = useState(initialState)
 
     return (
-        <Router>
-            <div className="row">
-                {days.map(item =>
-                    <Link className='item' key={item.id} to={`/${item.id}`}>
-                        <h2>{item.number}</h2>
-                        <h4>{item.day}</h4>
-                    </Link>
-                )}
-            </div>
-        </Router>
+        <div className="row">
+            {days.map(item =>
+                <Link className='item' key={item.id} to={`/${item.number}`}>
+                    <h2>{item.number}</h2>
+                    <h4>{item.day}</h4>
+                </Link>
+            )}
+        </div>
     )
 }

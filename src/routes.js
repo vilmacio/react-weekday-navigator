@@ -5,16 +5,13 @@ import {
   Route,
 } from "react-router-dom";
 
+import Container from './pages/container'
+
 export default function Routes() {
   return (
     <Router>
         <Switch>
-          <Route exact path="/1">
-            <Home />
-          </Route>
-          <Route path={`/${id}`}>
-            <About />
-          </Route>
+          <Route path={`/:id`} component={Container}/>
         </Switch>
     </Router>
   );

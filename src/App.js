@@ -1,10 +1,10 @@
 import React from 'react';
 import './global.css';
-import Container from './pages/container';
+import Routes from './routes'
 
 function App() {
   return (
-    <Container></Container>
+    <Routes />
   );
 }
 
