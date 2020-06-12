@@ -1,0 +1,11 @@
+.content {
+    height         : 350px;
+    align-items    : center;
+    display        : flex;
+    justify-content: center;
+}
+
+.content p {
+    color    : #ffffff;
+    font-size: 20px;
+}

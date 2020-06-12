@@ -1,17 +1,3 @@
-.main {
-    height         : 700px;
-    align-items    : center;
-    display        : flex;
-    flex-direction : column;
-    justify-content: center;
-}
-
-.container {
-    background-color: #14285C;
-    padding         : 10px;
-    box-shadow      : 0 0 2em black;
-}
-
 .row {
     display: flex;
 }
