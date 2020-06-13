@@ -1,5 +1,6 @@
 .content {
-    height         : 350px;
+    padding-top: 20%;
+    padding-bottom: 20%;
     align-items    : center;
     display        : flex;
     justify-content: center;
