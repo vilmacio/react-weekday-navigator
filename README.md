@@ -38,10 +38,12 @@ $ yarn build
 ```
 
 ## Use cases
-Example projects
+Example projects:
 * Calendar
 * Event list
 * Todo list
+
+Show a full calendar easily:
 ```javascript
 {days.map(item =>
   <Link className='item' key={item.id} to={`/${item.number}`}>
@@ -50,3 +52,17 @@ Example projects
   </Link>
 )}
 ```
+## Technologies
+This project was developed with the following technologies:
+
+-  [React](https://facebook.github.io/react-native/)
+-  [Router-Dom](https://github.com/ReactTraining/react-router/tree/master/packages/react-router-dom)
+-  [Moment](https://momentjs.com/)
+-  [PropTypes](https://github.com/facebook/prop-types)
+
+## License
+This project is under the MIT license. See the [LICENSE](https://github.com/vilmacio22/react-weekday-navigator/blob/master/LICENSE) for more information.
+
+---
+
+:heavy_check_mark: Made by [vilmacio22](https://github.com/vilmacio22) :wave:
