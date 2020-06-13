@@ -55,7 +55,7 @@ Show a full calendar easily:
 ## Technologies
 This project was developed with the following technologies:
 
--  [React](https://facebook.github.io/react-native/)
+-  [React](https://reactjs.org/)
 -  [Router-Dom](https://github.com/ReactTraining/react-router/tree/master/packages/react-router-dom)
 -  [Moment](https://momentjs.com/)
 -  [PropTypes](https://github.com/facebook/prop-types)
