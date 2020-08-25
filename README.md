@@ -61,8 +61,8 @@ This project was developed with the following technologies:
 -  [PropTypes](https://github.com/facebook/prop-types)
 
 ## License
-This project is under the MIT license. See the [LICENSE](https://github.com/vilmacio22/react-weekday-navigator/blob/master/LICENSE) for more information.
+This project is under the MIT license. See the [LICENSE](https://github.com/vilmacio/react-weekday-navigator/blob/master/LICENSE) for more information.
 
 ---
 
-:heavy_check_mark: Made by [vilmacio22](https://github.com/vilmacio22)
+:heavy_check_mark: Made by [vilmacio](https://github.com/vilmacio)
